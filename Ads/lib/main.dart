@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       value: AuthorisationMethods().user,
       child: MaterialApp(
         title: 'Ads',
-        debugShowCheckedModeBanner: true,
+        debugShowCheckedModeBanner: false,
         // theme: ThemeData.dark(),
         theme: ThemeData(
           primarySwatch: Colors.green , //Colors.green,
